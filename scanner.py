@@ -1,10 +1,11 @@
 import requests
-import argparse
 import subprocess
-import sys
 
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse, urlencode
+
+#bibliotecas adicionas, para o scanner pegar url direto da executação do script
+import argparse
 from datetime import datetime
 
 
